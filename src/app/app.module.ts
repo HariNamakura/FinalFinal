@@ -9,16 +9,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatButtonModule } from '@angular/material/button';
+import { MatLegacyButtonModule as MatButtonModule } from '@angular/material/legacy-button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
-import { MatTableModule } from '@angular/material/table';
+import { MatLegacyTableModule as MatTableModule } from '@angular/material/legacy-table';
 import { FormsModule } from '@angular/forms';
-import { MatCardModule } from '@angular/material/card';
+import { MatLegacyCardModule as MatCardModule } from '@angular/material/legacy-card';
 
 //Mserial Datepicker
 import { MatDatepickerModule } from "@angular/material/datepicker";
-import { MatInputModule } from "@angular/material/input";
+import { MatLegacyInputModule as MatInputModule } from "@angular/material/legacy-input";
 import { MatNativeDateModule } from "@angular/material/core";
 
 //Componentes
